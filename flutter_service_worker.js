@@ -3,22 +3,20 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "2ef9c51422bc56ea9fd19806ca47cdac",
+const RESOURCES = {"flutter_bootstrap.js": "ab3845ed9d63eb3d08e3c331878e2362",
 "version.json": "b0cd4a7a7785d88aa7be5a0d841a526e",
 "index.html": "e1d7d167e1c07a35e19ee3fa2081fd6a",
 "/": "e1d7d167e1c07a35e19ee3fa2081fd6a",
 "styles.css": "6c2b43f0041b86564309b89c86806194",
-"main.dart.js": "9fa7de949a335bd54ac9dc18af60ca00",
+"main.dart.js": "cd163398e9d35e594363c582307c37eb",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
 "drop_header_desktop.webp": "d95a01e8489486fec07193ce6900ba83",
 "drop_init.js": "4eeb70096b06bdc6a8b2c4b07072d441",
 "favicon.png": "b38b3762e618b0dedd1243d73eb47907",
-"icons/apple-touch-icon.png": "e79c5d0aa539e17991a087b114945fcd",
+"icons/apple-touch-icon.png": "b38b3762e618b0dedd1243d73eb47907",
 "icons/Icon-192.png": "38a3389c92a40c9e5e9ed41aeaa59b72",
-"icons/Icon-maskable-192.png": "cd274133924c75e583a2e6fb8b4833b1",
-"icons/Icon-192-maskable.png": "bc8cb720e136efe95e0296e439dafcd6",
-"icons/Icon-512-maskable.png": "2d21a459c0f27fb2eaa0e64e24cf4a2a",
-"icons/Icon-maskable-512.png": "db4316b76e1c0e601fdfb239a2a6c5af",
+"icons/Icon-maskable-192.png": "bc8cb720e136efe95e0296e439dafcd6",
+"icons/Icon-maskable-512.png": "2d21a459c0f27fb2eaa0e64e24cf4a2a",
 "icons/Icon-512.png": "0c8b28dabdd0831ac4341e3ff9fb55ec",
 "manifest.json": "8b16a4b910f19988f773ce3c4f727a4c",
 "assets/AssetManifest.json": "382a376cc19162a1c0b1f639a7114d54",
@@ -145,7 +143,7 @@ const CORE = ["main.dart.js",
         "canvaskit/skwasm.js",
         "canvaskit/skwasm.wasm",
         "canvaskit/canvaskit.js"
-        ];
+        ]; 
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
