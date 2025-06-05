@@ -3,13 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "9bfdc7bfc51b0ab85a7638ea4a2bbbed",
-"version.json": "b0cd4a7a7785d88aa7be5a0d841a526e",
-"index.html": "e1d7d167e1c07a35e19ee3fa2081fd6a",
-"/": "e1d7d167e1c07a35e19ee3fa2081fd6a",
+const RESOURCES = {"version.json": "b0cd4a7a7785d88aa7be5a0d841a526e",
 "styles.css": "6c2b43f0041b86564309b89c86806194",
-"main.dart.js": "cd163398e9d35e594363c582307c37eb",
-"flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
+"main.dart.js": "9fa7de949a335bd54ac9dc18af60ca00",
 "drop_header_desktop.webp": "d95a01e8489486fec07193ce6900ba83",
 "drop_init.js": "4eeb70096b06bdc6a8b2c4b07072d441",
 "favicon.png": "b38b3762e618b0dedd1243d73eb47907",
@@ -125,16 +121,7 @@ const RESOURCES = {"flutter_bootstrap.js": "9bfdc7bfc51b0ab85a7638ea4a2bbbed",
 "assets/assets/Burger.png": "323aaea4fbd6bad75478a0714a865ca2",
 "assets/assets/appstore.webp": "899965c4f643930fe79fe6833dfaa90e",
 "assets/assets/arrow_down.json": "d522c774520046b5414635e1bf0a6323",
-"assets/assets/ledger.png": "d29a20376c03e5a0acce17dc00d16d79",
-"canvaskit/skwasm.js": "ea559890a088fe28b4ddf70e17e60052",
-"canvaskit/skwasm.js.symbols": "e72c79950c8a8483d826a7f0560573a1",
-"canvaskit/canvaskit.js.symbols": "bdcd3835edf8586b6d6edfce8749fb77",
-"canvaskit/skwasm.wasm": "39dd80367a4e71582d234948adc521c0",
-"canvaskit/chromium/canvaskit.js.symbols": "b61b5f4673c9698029fa0a746a9ad581",
-"canvaskit/chromium/canvaskit.js": "8191e843020c832c9cf8852a4b909d4c",
-"canvaskit/chromium/canvaskit.wasm": "f504de372e31c8031018a9ec0a9ef5f0",
-"canvaskit/canvaskit.js": "728b2d477d9b8c14593d4f9b82b484f3",
-"canvaskit/canvaskit.wasm": "7a3f4ae7d65fc1de6a6e7ddd3224bc93"};
+"assets/assets/ledger.png": "d29a20376c03e5a0acce17dc00d16d79"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
@@ -145,7 +132,7 @@ const CORE = ["main.dart.js",
         "canvaskit/skwasm.js",
         "canvaskit/skwasm.wasm",
         "canvaskit/canvaskit.js"
-        ];
+        ]; 
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
