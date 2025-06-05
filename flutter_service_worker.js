@@ -3,6 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
+
 const RESOURCES = {"flutter_bootstrap.js": "4d4d429127ceca616fd0979f3f4b7fd7",
 "version.json": "b0cd4a7a7785d88aa7be5a0d841a526e",
 "index.html": "e1a2e3afac15d4dec416b77941dfef03",
@@ -136,10 +137,14 @@ const RESOURCES = {"flutter_bootstrap.js": "4d4d429127ceca616fd0979f3f4b7fd7",
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
-"index.html",
-"flutter_bootstrap.js",
-"assets/AssetManifest.bin.json",
-"assets/FontManifest.json"];
+        "index.html",
+        "flutter_bootstrap.js",
+        "assets/AssetManifest.bin.json",
+        "assets/FontManifest.json",
+        "canvaskit/skwasm.js",
+        "canvaskit/skwasm.wasm",
+        "canvaskit/canvaskit.js"
+        ];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
