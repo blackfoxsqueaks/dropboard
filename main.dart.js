@@ -53504,7 +53504,7 @@ r[7]=e+r[7]>>>0}}
 A.aaz.prototype={}
 A.uz.prototype={
 V(){var s=t.N
-return new A.a2Z(A.a([A.a4(["title","WashDrop Services","route","/washdrop-services","image","WashDrop.png"],s,s),A.a4(["title","DropShop Services","route","/dropshop-services","image","DropShop.png"],s,s),A.a4(["title","DropFM Broadcasts","route","/manage-dropfm","image","dropfm.png"],s,s),A.a4(["title","Tech Support","route","/tech-support","image","tech-support.png"],s,s),A.a4(["title","AppStore Console","url","https://developer.apple.com/account","image","appstore.webp"],s,s),A.a4(["title","PlayStore Console","url","https://play.google.com/console/u/0/developers/5721744213552554392/app-list?pli=1","image","playstore.png"],s,s)],t.SN))}}
+return new A.a2Z(A.a([A.a4(["title","WashDrop Services","route","/washdrop-services","image","assets/WashDrop.png"],s,s),A.a4(["title","DropShop Services","route","/dropshop-services","image","assets/DropShop.png"],s,s),A.a4(["title","DropFM Broadcasts","route","/manage-dropfm","image","assets/dropfm.png"],s,s),A.a4(["title","Tech Support","route","/tech-support","image","assets/tech-support.png"],s,s),A.a4(["title","AppStore Console","url","https://developer.apple.com/account","image","assets/appstore.webp"],s,s),A.a4(["title","PlayStore Console","url","https://play.google.com/console/u/0/developers/5721744213552554392/app-list?pli=1","image","assets/playstore.png"],s,s)],t.SN))}}
 A.a2Z.prototype={
 G(a){var s=null,r=t.p,q=A.a([A.cM(),A.cy(B.a0,32,s,32),new A.ai(s,16,s,s)],r),p=this.d,o=A.a3(p).i("N<1,i>")
 B.b.P(q,new A.N(p,A.m1(),o))
@@ -55172,7 +55172,7 @@ G(a){var s=null
 return A.av(A.a([A.Z(s,s,B.j,s,s,new A.a0(this.c,s,s,s,s,s,B.cX),s,10,s,s,s,s,s,10),new A.ai(5,s,s,s),A.l(this.d,s,s,s,s,A.y(s,s,B.dT,s,s,s,s,s,"RidleyGroteskMedium",s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.q,B.l,B.k,0,s)}}
 A.vs.prototype={
 V(){var s=t.N
-return new A.a5C(A.a([A.a4(["title","General Ledger","route","/general-ledger","image","ledger.png"],s,s),A.a4(["title","General Journal","route","/general-journal","image","journal.png"],s,s),A.a4(["title","Profit & Loss","route","/washdrop-orders","image","Payables.png"],s,s),A.a4(["title","Financial Performance","route","/balance-sheet","image","Stocks.png"],s,s)],t.SN))}}
+return new A.a5C(A.a([A.a4(["title","General Ledger","route","/general-ledger","image","assets/ledger.png"],s,s),A.a4(["title","General Journal","route","/general-journal","image","assets/journal.png"],s,s),A.a4(["title","Profit & Loss","route","/washdrop-orders","image","assets/Payables.png"],s,s),A.a4(["title","Financial Performance","route","/balance-sheet","image","assets/Stocks.png"],s,s)],t.SN))}}
 A.a5C.prototype={
 G(a){var s=null,r=t.p,q=A.a([A.cM(),A.cy(B.a0,32,s,32),B.bV],r),p=this.d,o=A.a3(p).i("N<1,i>")
 B.b.P(q,new A.N(p,A.m1(),o))
@@ -55778,7 +55778,7 @@ return A.kD(!1,p,p,p,!0,p,!0,p,p,p,p,p,!1,p,p,p,A.l("Date: "+A.j(J.C(J.yO(o.h(a,
 $S:113}
 A.vH.prototype={
 V(){var s=t.N
-return new A.a69(A.a([A.a4(["title","Suppliers","route","/suppliers","image","supplier.png"],s,s),A.a4(["title","Purchase Orders","route","/purchase-orders","image","po.png"],s,s),A.a4(["title","Inventory","route","/inventory","image","inventory.png"],s,s),A.a4(["title","Equipment","route","/equipment","image","equipment.png"],s,s)],t.SN))}}
+return new A.a69(A.a([A.a4(["title","Suppliers","route","/suppliers","image","assets/supplier.png"],s,s),A.a4(["title","Purchase Orders","route","/purchase-orders","image","assets/po.png"],s,s),A.a4(["title","Inventory","route","/inventory","image","assets/inventory.png"],s,s),A.a4(["title","Equipment","route","/equipment","image","assets/equipment.png"],s,s)],t.SN))}}
 A.a69.prototype={
 G(a){var s=null,r=t.p,q=A.a([A.cM(),A.cy(B.a0,32,s,32),new A.ai(s,16,s,s)],r),p=this.d,o=A.a3(p).i("N<1,i>")
 B.b.P(q,new A.N(p,A.m1(),o))
@@ -56985,7 +56985,7 @@ $1(a){return a==null?"Please select a department":null},
 $S:556}
 A.vR.prototype={
 V(){var s=t.N
-return new A.WO(A.a([A.a4(["title","Add Employee","route","/add-employee","image","WashDrop.png"],s,s)],t.SN))}}
+return new A.WO(A.a([A.a4(["title","Add Employee","route","/add-employee","image","assets/WashDrop.png"],s,s)],t.SN))}}
 A.WO.prototype={
 G(a){var s=null,r=t.p,q=A.a([A.cM(),A.cy(B.a0,32,s,32),new A.ai(s,16,s,s)],r),p=this.d
 B.b.P(q,new A.N(p,A.m1(),A.a3(p).i("N<1,i>")))
@@ -60848,7 +60848,7 @@ return A.jD("assets/image_placeholder.png",s,s,s,s)},
 $S:409}
 A.xX.prototype={
 V(){var s=t.N
-return new A.acD(A.a([A.a4(["title","Vendor Manager","route","/manage-vendors","image","DropShop.png"],s,s),A.a4(["title","Review Services","route","/dropshop-orders","image","review.png"],s,s)],t.SN))}}
+return new A.acD(A.a([A.a4(["title","Vendor Manager","route","/manage-vendors","image","assets/DropShop.png"],s,s),A.a4(["title","Review Services","route","/dropshop-orders","image","assets/review.png"],s,s)],t.SN))}}
 A.acD.prototype={
 G(a){var s=null,r=t.p,q=A.a([A.cM(),A.cy(B.a0,32,s,32),new A.ai(s,16,s,s)],r),p=this.d,o=A.a3(p).i("N<1,i>")
 B.b.P(q,new A.N(p,A.m1(),o))
@@ -132619,10 +132619,10 @@ $.b7L=null
 $.yL=0
 $.b5t=0
 $.baD=function(){var s=t.N
-return A.a([A.a4(["title","Email Campaign","route","/email-campaign","image","email.png"],s,s),A.a4(["title","SMS Campaign","route","/sms-campaign","image","sms.png"],s,s),A.a4(["title","Notifications Campaign","route","/notifications-campaign","image","notification.png"],s,s),A.a4(["title","Social Media Calendar","route","/social-media-calendar","image","calendar.png"],s,s),A.a4(["title","Meta Ads Manager","url","https://adsmanager.facebook.com/adsmanager/manage/campaigns?act=42320275&business_id=153284304229817&global_scope_id=153284304229817&nav_entry_point=am_local_scope_selector&breakdown_regrouping=1","image","meta-ads-manager.png"],s,s),A.a4(["title","Trendster","url","https://app.trendster.io/dashboard/profile/me/about","image","trendster.png"],s,s),A.a4(["title","Google Analytics","url","https://analytics.google.com/analytics/web/#/p342094784/reports/intelligenthome","image","google-analytics.png"],s,s),A.a4(["title","Google Search Console","url","https://search.google.com/search-console/index?resource_id=sc-domain%3Adrop-eg.com","image","google-search-console.png"],s,s)],t.SN)}()
+return A.a([A.a4(["title","Email Campaign","route","/email-campaign","image","assets/email.png"],s,s),A.a4(["title","SMS Campaign","route","/sms-campaign","image","assets/sms.png"],s,s),A.a4(["title","Notifications Campaign","route","/notifications-campaign","image","assets/notification.png"],s,s),A.a4(["title","Social Media Calendar","route","/social-media-calendar","image","assets/calendar.png"],s,s),A.a4(["title","Meta Ads Manager","url","https://adsmanager.facebook.com/adsmanager/manage/campaigns?act=42320275&business_id=153284304229817&global_scope_id=153284304229817&nav_entry_point=am_local_scope_selector&breakdown_regrouping=1","image","assets/meta-ads-manager.png"],s,s),A.a4(["title","Trendster","url","https://app.trendster.io/dashboard/profile/me/about","image","assets/trendster.png"],s,s),A.a4(["title","Google Analytics","url","https://analytics.google.com/analytics/web/#/p342094784/reports/intelligenthome","image","assets/google-analytics.png"],s,s),A.a4(["title","Google Search Console","url","https://search.google.com/search-console/index?resource_id=sc-domain%3Adrop-eg.com","image","assets/google-search-console.png"],s,s)],t.SN)}()
 $.bCx=A.a(["How are you doing today?","Good to see you!","Hope you're having a great day!","What's up? All good?","Nice to see you here!","How's your day going?","Greetings, Habiby!"],t.s)
 $.baE=function(){var s=t.N
-return A.a([A.a4(["title","WashDrop Orders","route","/washdrop-orders","image","equipment.png"],s,s),A.a4(["title","WashDrop Subscriptions","route","/washdrop-subscriptions","image","washdrop-subscription.png"],s,s),A.a4(["title","Signals Orders","route","/signal-orders","image","signals.png"],s,s),A.a4(["title","Signals Subscriptions","route","/signals-subscriptions","image","signals-subscription.png"],s,s),A.a4(["title","DropShop Orders","route","/dropshop-orders","image","DropShop.png"],s,s),A.a4(["title","Order Support","route","/order-support","image","tech-support.png"],s,s)],t.SN)}()
+return A.a([A.a4(["title","WashDrop Orders","route","/washdrop-orders","image","assets/equipment.png"],s,s),A.a4(["title","WashDrop Subscriptions","route","/washdrop-subscriptions","image","assets/washdrop-subscription.png"],s,s),A.a4(["title","Signals Orders","route","/signal-orders","image","assets/signals.png"],s,s),A.a4(["title","Signals Subscriptions","route","/signals-subscriptions","image","assets/signals-subscription.png"],s,s),A.a4(["title","DropShop Orders","route","/dropshop-orders","image","assets/DropShop.png"],s,s),A.a4(["title","Order Support","route","/order-support","image","assets/tech-support.png"],s,s)],t.SN)}()
 $.bdx=null
 $.bqY=A.bW("_instance")
 $.aH=null
